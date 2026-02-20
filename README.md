@@ -64,7 +64,7 @@ Agricultural-Dashboard/
 ## 🚀 Getting Started
 **Clone the repository**
 
-git clone https://github.com/yourusername/Agricultural-Dashboard.git
+git clone https://github.com/Aleena002/React-Agricultural.git
 cd Agricultural-Dashboard
 
 Install dependencies
