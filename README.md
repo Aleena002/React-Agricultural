@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Agricultural Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern **Agricultural Management System** dashboard built with **React**, **Bootstrap**, and **JavaScript**. This project provides an intuitive interface to manage crops, view crop details, and maintain a responsive user-friendly dashboard. The application uses React state management for dynamic updates and local rendering without a backend.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠 Features
 
-### `npm start`
+### Dashboard Overview
+- Header with project title and tagline
+- Sidebar for crop categories
+- Main content displaying selected crop details (name, description, season)
+- Footer with copyright and links
+- Fully responsive layout using **Bootstrap**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Crop Management
+- Select crops from sidebar
+- Dynamic display of crop details in main content
+- Preloaded crop data: Wheat, Rice, Corn
+- Update selected crop using React state
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Responsive Design
+- Mobile-friendly layout
+- Flexible grid system for sidebar and content
+- Footer sticks to the bottom with `flex-column` layout
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Technologies Used
 
-### `npm run build`
+- **Frontend:** React (Functional Components & Hooks)
+- **Routing:** react-router-dom
+- **Styling:** Bootstrap 5, custom CSS
+- **State Management:** React `useState` Hook
+- **Data Handling:** Local in-component state
+- **Responsive Design:** Bootstrap Grid & Utility Classes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
+Agricultural-Dashboard/
+│
+├── public/
+│ └── index.html # Root HTML file
+│
+├── src/
+│ ├── components/
+│ │ ├── Header.jsx # Header component
+│ │ ├── Sidebar.jsx # Sidebar component
+│ │ ├── MainContent.jsx # Main content component
+│ │ └── Footer.jsx # Footer component
+│ │
+│ ├── pages/
+│ │ └── Home.jsx # Home page with crop selection
+│ │
+│ ├── App.jsx # App routes and main layout
+│ ├── index.jsx # Entry point with ReactDOM & BrowserRouter
+│ └── index.css # Global CSS
+│
+├── package.json # Project dependencies
+└── README.md # Project documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🚀 Getting Started
+**Clone the repository**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/yourusername/Agricultural-Dashboard.git
+cd Agricultural-Dashboard
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the development server
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open the app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app will automatically open at http://localhost:3000
